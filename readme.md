@@ -1,3 +1,21 @@
-![TITLE YOUR PROJECT HERE](Add a nice picture URL)
 
-# START PROJECT README 
+# MyEffect2 README 
+
+Sketch file included
+
+Install node_modules:
+
+npm install
+
+Frontend:
+start:
+
+npm run dev
+
+___________________________________________
+
+
+Backend: 
+start: 
+
+npm run dev
