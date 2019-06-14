@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="87px" viewBox="0 0 87 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon-notification</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-notification" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <rect id="Rectangle" x="0" y="0" width="87" height="87"></rect>
+            <g id="Group-2" transform="translate(14.000000, 6.000000)" fill="#1BA2E7">
+                <path d="M53,64 L7,64 L0,64 L1.36424205e-12,58.8161535 L7,54.8400639 L7,31 C7,20.2365855 14.393466,11.2000074 24.37882,8.69184408 C24.1335853,8.00705391 24,7.26912722 24,6.5 C24,2.91014913 26.9101491,0 30.5,0 C34.0898509,0 37,2.91014913 37,6.5 C37,7.36264234 36.8319556,8.18603581 36.5268165,8.93923081 C46.0503395,11.7524418 53,20.5646308 53,31 L53,55.4080767 L59,58.8161535 L59,64 L53,64 Z" id="Combined-Shape"></path>
+                <path d="M29,75 C33.9705627,75 38,70.9705627 38,66 C35.3536608,66 22.5318408,66 20,66 C20,70.9705627 24.0294373,75 29,75 Z" id="Oval"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="153px" viewBox="0 0 152 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon-mail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-535.000000, -784.000000)">
+            <g id="icon-mail" transform="translate(535.000000, 784.500000)">
+                <g id="icon-members" fill="#191919" fill-opacity="0.01">
+                    <rect id="Rectangle" x="0" y="0" width="152" height="152"></rect>
+                </g>
+                <path d="M21.5,27 L129.5,27 C133.365993,27 136.5,30.1340068 136.5,34 L136.5,118 C136.5,121.865993 133.365993,125 129.5,125 L21.5,125 C17.6340068,125 14.5,121.865993 14.5,118 L14.5,34 C14.5,30.1340068 17.6340068,27 21.5,27 Z M75.5,69.3369799 L25.5,38 L25.5,50.3693014 L75.4895839,82 L75.5,81.9839284 L75.5104161,82 L125.5,50.3693014 L125.5,38 L75.5,69.3369799 Z" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

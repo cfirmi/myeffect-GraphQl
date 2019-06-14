@@ -1,0 +1,16 @@
+
+type User {
+  id: ID! @id @unique
+  name: String!
+  email: String! @unique
+  password: String!
+  phone: String
+  city: String
+  about: String
+  facebook: String
+  linkedin: String
+  youtube: String
+  twitter: String
+  instagram: String
+  googleplus: String
+}

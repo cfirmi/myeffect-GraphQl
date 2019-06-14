@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="153px" viewBox="0 0 152 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon-members</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-535.000000, -591.000000)">
+            <g id="icon-members" transform="translate(535.000000, 591.500000)">
+                <rect id="Rectangle" fill-opacity="0.01" fill="#191919" x="0" y="0" width="152" height="152"></rect>
+                <g transform="translate(13.000000, 36.000000)" fill="#FFFFFF">
+                    <path d="M79.5,46.199031 C92.1099174,45.6706496 101.098922,46.1943163 106.467014,47.7700309 C111.835107,49.3457456 118.179435,53.3229253 125.5,59.7015702 L125.5,80 L91,80 L91.0221592,63.4553337 C90.6656864,61.5231053 90.3480629,60.2718508 90.0692888,59.7015702 C88.7342036,56.9704231 85.2111074,52.4695767 79.5,46.199031 Z" id="Rectangle"></path>
+                    <path d="M0.5,63.7334047 C5.84397852,51.9111349 19.0106452,46 40,46 C60.9893548,46 74.1560215,51.9111349 79.5,63.7334047 L79.5,80 L0.5,80 L0.5,63.7334047 Z" id="Rectangle"></path>
+                    <circle id="Oval" cx="40.5" cy="17" r="17"></circle>
+                    <circle id="Oval" cx="85.5" cy="17" r="17"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

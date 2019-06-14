@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="153px" viewBox="0 0 152 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon-actions</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-535.000000, -398.000000)">
+            <g id="icon-actions" transform="translate(535.000000, 398.500000)">
+                <rect id="Rectangle" fill-opacity="0.01" fill="#191919" x="0" y="0" width="152" height="152"></rect>
+                <g transform="translate(14.500000, 49.000000)" fill="#FFFFFF" id="Group">
+                    <g transform="translate(0.500000, 0.000000)">
+                        <rect id="Rectangle" x="-4.01456646e-13" y="0" width="13.5555556" height="14"></rect>
+                        <rect id="Rectangle" x="27.1111111" y="0" width="94.8888889" height="14"></rect>
+                    </g>
+                    <g transform="translate(0.500000, 27.000000)">
+                        <rect id="Rectangle" x="-4.01456646e-13" y="0" width="13.5555556" height="14"></rect>
+                        <rect id="Rectangle" x="27.1111111" y="0" width="94.8888889" height="14"></rect>
+                    </g>
+                    <g transform="translate(0.500000, 54.000000)">
+                        <rect id="Rectangle" x="-4.01456646e-13" y="0" width="13.5555556" height="14"></rect>
+                        <rect id="Rectangle" x="27.1111111" y="0" width="94.8888889" height="14"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
