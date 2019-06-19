@@ -13,13 +13,18 @@ const loading = keyframes`
 `;
 
 const Form = styled.form`
+  margin-top: 10vh;
+  border-radius: 20px;
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.05);
-  background: rgba(0, 0, 0, 0.02);
+  background: white;
   border: 5px solid white;
+  width: 30vw;
   padding: 20px;
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 600;
+  margin-left: 50%;
+  transform: translateX(-50%);
   label {
     display: block;
     margin-bottom: 1rem;
@@ -27,24 +32,30 @@ const Form = styled.form`
   input,
   textarea,
   select {
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid black;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 20vw;
+    padding: 0.5rem 10px;
+    font-size: 1.5rem;
+    border: 1px solid grey;
+    border-radius: 20px;
     &:focus {
       outline: 0;
-      border-color: ${props => props.theme.red};
+      border-color: ${props => props.theme.white};
     }
   }
   button,
   input[type='submit'] {
     width: auto;
-    background: red;
-    color: black;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: ${props => props.theme.lightblue};
+    color: white;
     border: 0;
-    font-size: 2rem;
+    border-radius: 20px;
+    font-size: 1.7rem;
     font-weight: 600;
-    padding: 0.5rem 1.2rem;
+    padding: 0.9rem 1.6rem;
   }
   fieldset {
     border: 0;
@@ -57,7 +68,7 @@ const Form = styled.form`
       height: 10px;
       content: '';
       display: block;
-      background-image: linear-gradient(to right, #ff3019 0%, #e2b04a 50%, #ff3019 100%);
+      background-image: linear-gradient(to right, #1BA2E7 0%, #00B8F1 50%, #FFD430 100%);
     }
     &[aria-busy='true']::before {
       background-size: 50% auto;

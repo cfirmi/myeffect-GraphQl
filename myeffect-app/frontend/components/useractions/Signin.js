@@ -27,7 +27,7 @@ class Signin extends Component {
   };
   render() {
     return (
-      <div style={{background: 'black', gridColumn: '2'}}>  
+      <div style={{background: 'white', gridColumn: '2'}}>  
       <Mutation
         mutation={SIGNIN_MUTATION}
         variables={this.state}
@@ -43,7 +43,7 @@ class Signin extends Component {
             }}
           >
             <fieldset disabled={loading} aria-busy={loading}>
-              <h2>Sign into your account</h2>
+              <h2 style={{color: 'darkgrey'}}>Sign into your account</h2>
               <Error error={error} />
               <label htmlFor="email">
                 Email

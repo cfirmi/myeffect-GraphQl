@@ -29,7 +29,7 @@ export default class signup extends Component {
 
   render() {
     return (
-      <div style={{background: 'black', gridColumn: '2'}}>
+      <div style={{background: 'white', gridColumn: '2'}}>
        <Mutation mutation={SIGNUP_MUTATION} variables={this.state}>
         {(signup, { error, loading }) => (
           <Form
@@ -41,7 +41,7 @@ export default class signup extends Component {
             }}
           >
             <fieldset disabled={loading} aria-busy={loading}>
-              <h2>Sign Up for An Account</h2>
+              <h2 style={{color: 'darkgrey'}}>Sign Up for An Account</h2>
               <Error error={error} />
               <label htmlFor="email">
                 Email

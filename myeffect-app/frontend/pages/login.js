@@ -6,8 +6,8 @@ import Signup from '../components/useractions/Signup'
 
 const Outerbox = styled.div`
   display: grid;
-  grid-template-columns: 250px 1fr;
-  width: 100%;
+  grid-template-columns: 250px 1fr ;
+  width: 100vw;
 `;
 
 const login = () => (
