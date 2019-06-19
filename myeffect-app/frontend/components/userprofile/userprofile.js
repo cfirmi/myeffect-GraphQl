@@ -29,7 +29,9 @@ export default class profile extends Component {
         birthday: '1995-03-25',
         age: '24',
         profileImage: "../../static/images/profile/header/me.jpg",
-        bannerImage: "../../static/images/profile/header/me.jpg"
+        bannerImage: "../../static/images/profile/header/me.jpg",
+        about: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum assumenda, aliquid animi illum, sint aut quam incidunt reiciendis vel quasi doloribus nemo omnis expedita, enim vero tempore. Quod voluptatem sapiente dolore. Dignissimos, commodi? Placeat numquam, ex ducimus et dolor laboriosam.',
+        memories: [{image:"../../static/images/profile/memories/me.jpg"}, {image:"../../static/images/profile/memories/me2.jpg"}, {image:"../../static/images/profile/memories/me3.png"}, {image:"../../static/images/profile/memories/me4.jpg"}]
       }
     }
   }
@@ -38,7 +40,7 @@ export default class profile extends Component {
       <Outerbox >
         <Header user={this.state.user}  />
         <Info />
-        <About />
+        <About user={this.state.user} />
         <Memories />
         <Actions />
         <Challenges />

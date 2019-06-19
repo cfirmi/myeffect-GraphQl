@@ -8,10 +8,14 @@ display: grid;
 `;
 
 export default class abouttext extends Component {
+  constructor(props) {
+    super(props) 
+  }
   render() {
+
     return (
       <Outerbox>
-        <ProfileAbout>Lorem nihil fuga aliquam porro, culpa laboriosam consectetur esse corporis quas nobis? Nihil beatae maiores reprehenderit voluptates harum debitis cumque doloremque, doloribus aperiam nostrum molestias dicta? Veritatis, reiciendis accusamus quo ea nesciunt earum voluptas.</ProfileAbout>
+        <ProfileAbout>{this.props.user.about}</ProfileAbout>
       </Outerbox>
     )
   }

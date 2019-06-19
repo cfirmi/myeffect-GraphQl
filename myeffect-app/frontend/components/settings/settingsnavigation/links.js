@@ -12,7 +12,8 @@ import uuid from "uuid/v4";
   }
  `;
 
- const Innerbox = styled.div`
+const Innerbox = styled.div`
+background: white;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 9px;
@@ -23,7 +24,7 @@ import uuid from "uuid/v4";
   border-radius: 12px 12px 0px 0px;
   .active {
     color: ${props => props.theme.lightblue};
-    box-shadow: ${props => props.theme.bsblack};
+    box-shadow:  0 4px 10px 0 rgba(0, 0, 0, 0.2);
   }
   `;
  const Title = styled.div`
@@ -33,7 +34,7 @@ import uuid from "uuid/v4";
   text-align: center;
   input:active, input:focus{
   color: ${props => props.theme.grey};
-    box-shadow: ${props => props.theme.bsblack};
+  box-shadow: ${props => props.theme.bsblack};
   }
  `;
  

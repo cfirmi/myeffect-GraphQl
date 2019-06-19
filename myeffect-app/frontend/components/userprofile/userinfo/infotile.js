@@ -18,7 +18,7 @@ import styled from 'styled-components'
 
 export default class infotile extends Component {
   render() {
-    const { id, name, icon, hours, dollars, people} = this.props
+    const { id, name, icon} = this.props
     return (
       <Outerbox>
         <img src={icon} alt=""/>

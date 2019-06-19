@@ -17,7 +17,7 @@ export default class about extends Component {
     return (
       <Outerbox>
         <AboutBanner />
-        <AboutText />
+        <AboutText user={this.props.user} />
       </Outerbox>
     )
   }

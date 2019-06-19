@@ -2,15 +2,16 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import uuid from 'uuid/v4'
 import InfoTile from './infotile'
+import Slider from "react-slick";
 
 export default class infotiles extends Component {
   static defaultProps = {
     tiles: [
       { id: uuid(), name: "Volunteer Hours", hours: "112", icon: "../../static/images/profile/info/tiles/icon-clock.svg"},
-      { id: uuid(), name: "Dollars Raised", hours: "112", icon: "../../static/images/profile/info/tiles/icon-clock.svg"},
-      { id: uuid(), name: "Items Recycled", hours: "112", icon: "../../static/images/profile/info/tiles/icon-clock.svg"},
-      { id: uuid(), name: "People Helped", hours: "112", icon: "../../static/images/profile/info/tiles/icon-clock.svg"},
-      { id: uuid(), name: "Skills Developed", hours: "112", icon: "../../static/images/profile/info/tiles/icon-clock.svg"},
+      { id: uuid(), name: "Dollars Raised", hours: "112", icon: "../../static/images/profile/info/tiles/icon-helped.svg"},
+      { id: uuid(), name: "Items Recycled", hours: "112", icon: "../../static/images/profile/info/tiles/icon-money.svg"},
+      { id: uuid(), name: "People Helped", hours: "112", icon: "../../static/images/profile/info/tiles/icon-recycled.svg"},
+      { id: uuid(), name: "Skills Developed", hours: "112", icon: "../../static/images/profile/info/tiles/icon-skills.svg"},
       { id: uuid(), name: "Lives Saved", hours: "112", icon: "../../static/images/profile/info/tiles/icon-clock.svg"},
       { id: uuid(), name: "Healthy Actions", hours: "112", icon: "../../static/images/profile/info/tiles/icon-clock.svg"},
     ]
@@ -41,5 +42,5 @@ export default class infotiles extends Component {
   grid-gap: 10px;
   justify-content: center;
   overflow-y: hidden;
-  scrollbar-width: none;
+  scrollbar-width: 0px;
  `;

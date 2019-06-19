@@ -5,6 +5,8 @@ import Links from './links'
 
  const Outerbox = styled.div`
   margin-top: 70px;
+  z-index: 10;
+ 
  `;
 
 export default class navigationsettings extends Component {

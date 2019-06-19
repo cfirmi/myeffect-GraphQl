@@ -8,7 +8,6 @@ const settings = '../../static/images/settings/icon-settings.svg'
   margin-left: 40px;
   display: flex;
   img {
-    /* background: #000; */
     height: 75px;
   }
   div {

@@ -8,11 +8,11 @@ import HeaderBanner from './headerbanner';
 const notification = '../../static/images/profile/header/headerImage/icon-notification.svg'
 
  const Outerbox = styled.div`
-  grid-column: 1 / -1;
-  grid-row: 1;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px;
+   grid-column: 1 / -1;
+   grid-row: 1;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 200px;
  `;
 
   const Notification = styled.img`

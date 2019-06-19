@@ -13,7 +13,10 @@ import User from '../../../useractions/User'
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 300px 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 1fr ;
+  border-radius: 25px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3); */
+  z-index: 1;
  `;
 
 const Submit = styled.div`
@@ -33,7 +36,6 @@ export default class usereditprofile extends Component {
   onChangeuserProfile(newuserProfile) {
     this.setState({
       user: {
-        // facebook:
       }
     })
     return user

@@ -39,11 +39,20 @@ const img = "../../static/images/profile/memories/me.jpg"
    grid-area: image4;
   `;
 
+//Need to loop over the memories array in the userprofile. 
+//Also need to increment for different div's as each image gets loaded in to fit current grid
+//Need a loop to show the OG loop 
+//Suggestions: Show More Links to New Page not bigger comp ||OR|| Horizontal comp load
+
 export default class memoriesgallery extends Component {
   render() {
     return (
       <Outerbox>
-        <Image1 src={img} />
+        <Image1 src={img} 
+        // style={{
+        //   backgroundImage: {this.props.user.memories}
+        // }}
+        />
         <Image2 src={img} />
         <Image3 src={img} />
         <Image4 src={img} />
