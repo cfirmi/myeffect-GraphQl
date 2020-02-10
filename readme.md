@@ -1,5 +1,5 @@
 
-# MyEffect2 README 
+# MyEffect README 
 
 Sketch file included
 
